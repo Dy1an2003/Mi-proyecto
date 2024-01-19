@@ -1,3 +1,6 @@
+ion-content {
+  --ion-background-color: white;
+}
 #container {
   text-align: center;
 
@@ -36,15 +39,26 @@ swider-slide {
   align-items: center;
   justify-content: center;
 }
-.red-title {
-  color: red;
+.yellow-title {
+  color: yellow;
 }
 .blue-title {
   color: blue;
 }
-.gray-title {
-  color: gray;
+.red-title {
+  color: red;
 }
-.greenyellow-p {
-  color:greenyellow;
+ion-icon {
+  font-size: 30px;
+  color: red;
 }
+.yellow-p {
+  color: yellow;
+  }
+.blue-p {
+color: blue;
+}
+.red-p {
+  color: red;
+  }
+
