@@ -17,4 +17,4 @@ import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
   declarations: [HomePage],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
-export class HomePageModule {}
+export class HomePageModule {} 
