@@ -19,34 +19,36 @@
       <swiper-slide>
         <h1 class="blue-title">Bienvenido a GalaSports</h1>
         <p class="blue-title"> Ventas de los siguientes eventos:</p>
-          <p class="black-p">Liga de Baloncesto de Colombia</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/2560px-Flag_of_Colombia.svg.png" style="width: 200px; height: 200px;">
+        <p class="black-p">Partidos de selección Colombia</p>  
+        <p class="black-p">Liga de Baloncesto de Colombia</p>
           <p class="black-p">Liga Betplay</p>
           <p class="black-p">Liga Betplay Femenina</p>
           <p class="black-p">Torneo Betplay</p>
-        <img src="">
+        
     </swiper-slide>
     <swiper-slide>
       <h1 class="blue-title">Eventos</h1>
         <p class="blue-p"></p>
-        <img src="" alt="Fútbol">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/aa/Estadio_El_Campin_vac%C3%ADo.jpg" alt="Fútbol" style="width: 400px; height: 200px;">
+          <p class="black-p">Fecha: 24/01/2024</p>
+          <p class="black-p">Hora: 20:00</p>
+          <p class="black-p">Estadio: Estadio Nemesio Camacho "el campin"</p>
+          <p class="black-p"> Evento: futbol, Equipos: Millonarios vs Junior</p>
+
+          <img src="" alt="Fútbol" style="width: 400px; height: 200px;">
           <p class="black-p">Fecha: 01/03/2024</p>
           <p class="black-p">Hora: 18:00</p>
           <p class="black-p">Estadio: Estadio XYZ</p>
           <p class="black-p">Equipos: Equipo A vs Equipo B</p>
 
-          <img src="" alt="Fútbol">
+          <img src="" alt="Fútbol" style="width: 400px; height: 200px;">
           <p class="black-p">Fecha: 01/03/2024</p>
           <p class="black-p">Hora: 18:00</p>
           <p class="black-p">Estadio: Estadio XYZ</p>
           <p class="black-p">Equipos: Equipo A vs Equipo B</p>
 
-          <img src="" alt="Fútbol">
-          <p class="black-p">Fecha: 01/03/2024</p>
-          <p class="black-p">Hora: 18:00</p>
-          <p class="black-p">Estadio: Estadio XYZ</p>
-          <p class="black-p">Equipos: Equipo A vs Equipo B</p>
-
-          <img src="" alt="Fútbol">
+          <img src="" alt="Fútbol" style="width: 400px; height: 200px;">
           <p class="black-p">Fecha: 01/03/2024</p>
           <p class="black-p">Hora: 18:00</p>
           <p class="black-p">Estadio: Estadio XYZ</p>
@@ -57,6 +59,17 @@
     <swiper-slide>
       <h1 class="blue-title">Comprar boletas</h1>
         <p class="red-p"></p>
+        <ion-item>
+          <ion-label position="stacked">Usuario</ion-label>
+          <ion-input [(ngModel)]="username" type="text"></ion-input>
+        </ion-item>
+  
+        <ion-item>
+          <ion-label position="stacked">Contraseña</ion-label>
+          <ion-input [(ngModel)]="password" type="password"></ion-input>
+        </ion-item>
+        <ion-button expand="full" (click)="login()">Iniciar sesión</ion-button>
+        <ion-button expand="full" (click)="goToHome()">Ir a Home</ion-button>
 
     </swiper-slide>
     <swiper-slide>
