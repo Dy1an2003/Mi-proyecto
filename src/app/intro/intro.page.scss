@@ -1,0 +1,62 @@
+ion-content {
+  --ion-background-color: black;
+}
+#container {
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+  color: #8c8c8c;  
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+swider-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.blue-title {
+  color: white;
+}
+
+ion-icon {
+  font-size: 30px;
+  color: black;
+} 
+  ion-input {
+    margin-bottom: 10px;
+  }
+  .ion-title{
+    color:black;
+  }
+  .icon-whatsapp {
+    color: white;
+  }
+  .icon-instagram{
+    color: white;
+  }
+  .icon-facebook{
+    color: white;
+  }
